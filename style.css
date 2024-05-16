@@ -19,12 +19,12 @@ body {
     cursor: url('./Images/cursor.gif'), pointer;
 }
 
-small{
+small {
     font-size: 10px;
 }
-  
+
 /* Fixed button to accpt the cokiee  */
-.fixed-cookee{
+.fixed-cookee {
     position: fixed;
     padding: 20px 40px;
     top: 85%;
@@ -37,11 +37,11 @@ small{
     border-radius: 50px;
 }
 
-.fixed-cookee button{
+.fixed-cookee button {
     font-size: 0.8rem;
     padding: 10px 20px;
     background-color: whitesmoke;
-    color: var(--highlight-color); 
+    color: var(--highlight-color);
     border: none;
     border-radius: 60px;
     font-weight: 1000;
@@ -103,11 +103,11 @@ small{
     color: var(--highlight-color);
 }
 
-.navbar-right button{
+.navbar-right button {
     font-size: 0.8rem;
     padding: 10px 20px;
     background-color: var(--main-color);
-    color: var(--highlight-color); 
+    color: var(--highlight-color);
     border: none;
     border-radius: 60px;
     font-weight: 1000;
@@ -150,28 +150,28 @@ small{
     display: flex;
     height: 600px;
 
-  }
-  
-  .images {
+}
+
+.images {
     flex: 50%;
     display: flex;
     flex-direction: column;
-  }
+}
 
-    .images img{
-        flex-grow: 1;
-        width: 90%;
-        height: auto;
-        aspect-ratio: 1;
-        opacity: 0.6;
-    }
-  
-  .text {
+.images img {
+    flex-grow: 1;
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1;
+    opacity: 0.6;
+}
+
+.text {
     flex: 50%;
     position: relative;
-  }
+}
 
-  .text button{
+.text button {
     position: absolute;
     margin-top: 80%;
     left: 10%;
@@ -182,13 +182,13 @@ small{
     font-size: 1.5rem;
     padding: 10px 20px;
     background-color: transparent;
-    color: var(--highlight-color); 
+    color: var(--highlight-color);
     font-weight: 1000;
     height: 60px;
-    
-  }
 
-  .text p{
+}
+
+.text p {
     font-size: 2rem;
     position: absolute;
     margin-top: 50%;
@@ -196,11 +196,11 @@ small{
     padding: 50px 50px;
     justify-content: left;
     color: var(--highlight-color);
-    
-  }
-  
-  /* Adjust styles for the marquee */
-  marquee {
+
+}
+
+/* Adjust styles for the marquee */
+marquee {
     width: 100%;
     margin-top: 5%;
     background-color: transparent;
@@ -209,33 +209,83 @@ small{
     z-index: 1000;
     font-size: 10rem;
     color: var(--main-color);
-  }
-  
+}
 
-  /* Section 3 */
-  .section_3_container {
+
+/* Section 3 */
+.section_3_container {
     font-size: 3rem;
     margin-top: 200px;
     margin-left: 50px;
     padding: 50px;
     color: var(--main-color);
-  }
-  .section_3_container p{
+}
+
+.section_3_container p {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .section_3_container p span{
+.section_3_container p span {
     border: 2px solid black;
     border-radius: 50px;
     font-size: 2rem;
     margin-left: 20px;
     margin-right: 20px;
     padding: 2px 20px;
+}
+
+
+/* section 4 */
+
+.section_4_container {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.section_4_container span {
+    margin-right: 200px;
+    font-size: 20rem;
+}
+
+.section_4_container span sup {
+    font-size: 1rem;
+    margin-left: -100px;
+}
+
+.section_4_container button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: var(--highlight-color);
+    border: none;
+    border-radius: 60px;
+    font-weight: 1000;
+    height: auto;
+}
+
+
+/* section 4 image slider  */
+.slider-container {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: scroll;
   }
-
-
-  /* section 4 */
-
+  
+  .slider {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 50px;
+  }
+  
+  img {
+    width: 50%;
+    height: auto;
+    margin: 50px;
+    aspect-ratio: 1;
+    border-radius: 0px 0px 15px 15px;
+  }
+  
   

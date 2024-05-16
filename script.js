@@ -10,7 +10,7 @@ function hideOptions_1() {
     hideOptionsTimer_1 = setTimeout(() => {
         const optionsDiv = document.getElementById('options_1');
         optionsDiv.style.display = 'none';
-    }, 1000); 
+    }, 1000);
 }
 
 // Function to cancel the hide timer
@@ -32,7 +32,7 @@ function hideOptions_2() {
     hideOptionsTimer_2 = setTimeout(() => {
         const optionsDiv = document.getElementById('options_2');
         optionsDiv.style.display = 'none';
-    }, 1000); 
+    }, 1000);
 }
 
 // Function to cancel the hide timer
@@ -48,8 +48,8 @@ const imageElement = document.getElementById("display_img");
 let currentIndex = 0;
 
 function displayNextImage() {
-  imageElement.src = images[currentIndex];
-  currentIndex = (currentIndex + 1) % images.length;
+    imageElement.src = images[currentIndex];
+    currentIndex = (currentIndex + 1) % images.length;
 }
 
 // Display the first image immediately
@@ -57,3 +57,10 @@ displayNextImage();
 
 // Schedule to display subsequent images every 2 seconds
 setInterval(displayNextImage, 2000);
+
+
+
+
+
+
+// Image slider code 
