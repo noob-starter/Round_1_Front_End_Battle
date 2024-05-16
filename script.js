@@ -57,10 +57,3 @@ displayNextImage();
 
 // Schedule to display subsequent images every 2 seconds
 setInterval(displayNextImage, 2000);
-
-
-
-
-
-
-// Image slider code 
