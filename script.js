@@ -39,3 +39,21 @@ function hideOptions_2() {
 function cancelHideOptions_2() {
     clearTimeout(hideOptionsTimer_2);
 }
+
+
+// add the images 
+
+const images = ["./Images/image-1.webp", "./Images/image-2.webp", "./Images/image-3.webp", "./Images/image-4.webp"];
+const imageElement = document.getElementById("display_img");
+let currentIndex = 0;
+
+function displayNextImage() {
+  imageElement.src = images[currentIndex];
+  currentIndex = (currentIndex + 1) % images.length;
+}
+
+// Display the first image immediately
+displayNextImage();
+
+// Schedule to display subsequent images every 2 seconds
+setInterval(displayNextImage, 2000);
